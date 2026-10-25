@@ -1,0 +1,826 @@
+{
+  "schemaVersion": "1.0.0",
+  "districtName": "八千代市",
+  "defaultScenario": "day15",
+  "currentUser": {
+    "staffId": "S-001",
+    "staffName": "山田 太郎"
+  },
+  "pinStatus": [
+    {
+      "rowId": 106,
+      "cityName": "八千代市",
+      "townName": "ゆりのき台一丁目",
+      "status": "completed"
+    },
+    {
+      "rowId": 107,
+      "cityName": "八千代市",
+      "townName": "ゆりのき台二丁目",
+      "status": "completed"
+    },
+    {
+      "rowId": 50,
+      "cityName": "八千代市",
+      "townName": "緑が丘一丁目",
+      "status": "completed"
+    },
+    {
+      "rowId": 9,
+      "cityName": "八千代市",
+      "townName": "勝田台一丁目",
+      "status": "completed"
+    },
+    {
+      "rowId": 97,
+      "cityName": "八千代市",
+      "townName": "八千代台東一丁目",
+      "status": "completed"
+    }
+  ],
+  "activityLogs": [
+    {
+      "recordId": "rec_201",
+      "rowId": 50,
+      "cityName": "八千代市",
+      "townName": "緑が丘一丁目",
+      "count": 520,
+      "staffId": "S-006",
+      "staffName": "渡辺 美咲",
+      "time": "15:12"
+    },
+    {
+      "recordId": "rec_202",
+      "rowId": 9,
+      "cityName": "八千代市",
+      "townName": "勝田台一丁目",
+      "count": 460,
+      "staffId": "S-004",
+      "staffName": "高橋 健一",
+      "time": "14:48"
+    },
+    {
+      "recordId": "rec_203",
+      "rowId": 97,
+      "cityName": "八千代市",
+      "townName": "八千代台東一丁目",
+      "count": 410,
+      "staffId": "S-002",
+      "staffName": "佐藤 花子",
+      "time": "14:05"
+    },
+    {
+      "recordId": "rec_204",
+      "rowId": 107,
+      "cityName": "八千代市",
+      "townName": "ゆりのき台二丁目",
+      "count": 540,
+      "staffId": "S-001",
+      "staffName": "山田 太郎",
+      "time": "13:30"
+    }
+  ],
+  "scenarios": {
+    "day1": {
+      "label": "Day 1（3人で開始）",
+      "inProgress": [
+        3
+      ],
+      "completed": [
+        2,
+        4,
+        106
+      ],
+      "myInProgress": [],
+      "myStock": {
+        "storageId": "S-001",
+        "staffId": "S-001",
+        "staffName": "山田 太郎",
+        "location": "八千代市（ゆりのき台・中央拠点）",
+        "count": 1500,
+        "updatedAt": "10/25 09:00",
+        "isMe": true
+      },
+      "stocks": [
+        {
+          "storageId": "S-001",
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "location": "八千代市（ゆりのき台・中央拠点）",
+          "count": 1500,
+          "updatedAt": "10/25 09:00",
+          "isMe": true
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "staffId": "S-001",
+          "name": "山田 太郎",
+          "count": 480,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 2,
+          "staffId": "S-002",
+          "name": "佐藤 花子",
+          "count": 320,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 3,
+          "staffId": "S-003",
+          "name": "鈴木 一郎",
+          "count": 210,
+          "hasGps": true,
+          "hasPhoto": true
+        }
+      ],
+      "mySummary": {
+        "rank": 1,
+        "totalCount": 480,
+        "completedAreas": 1
+      },
+      "roster": [
+        {
+          "id": "S-001",
+          "name": "山田 太郎",
+          "stockTotal": 1500,
+          "deliveredTotal": 480
+        },
+        {
+          "id": "S-002",
+          "name": "佐藤 花子",
+          "stockTotal": 0,
+          "deliveredTotal": 320
+        },
+        {
+          "id": "S-003",
+          "name": "鈴木 一郎",
+          "stockTotal": 0,
+          "deliveredTotal": 210
+        }
+      ],
+      "transferRequests": [],
+      "liveRecords": [
+        {
+          "recordId": "rec_101",
+          "rowId": 106,
+          "cityName": "八千代市",
+          "townName": "ゆりのき台一丁目",
+          "count": 480,
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "time": "10:15",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_102",
+          "rowId": 4,
+          "cityName": "八千代市",
+          "townName": "大和田新田",
+          "count": 320,
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "time": "09:40",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_103",
+          "rowId": 2,
+          "cityName": "八千代市",
+          "townName": "大和田",
+          "count": 210,
+          "staffId": "S-003",
+          "staffName": "鈴木 一郎",
+          "time": "09:10",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        }
+      ],
+      "bulletinPosts": [
+        {
+          "postId": "bp_1",
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "message": "ゆりのき台一丁目の配布を完了しました！まずは拠点周辺から少しずつ広げていきましょう。",
+          "createdAt": "10/25 10:20",
+          "timestamp": "10/25 10:20"
+        }
+      ]
+    },
+    "day15": {
+      "label": "Day 15（拠点が増え12人へ拡大）",
+      "inProgress": [
+        11,
+        52,
+        66,
+        99
+      ],
+      "completed": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        24,
+        35,
+        50,
+        51,
+        65,
+        97,
+        98,
+        106,
+        107,
+        108
+      ],
+      "myInProgress": [],
+      "myStock": {
+        "storageId": "S-001",
+        "staffId": "S-001",
+        "staffName": "山田 太郎",
+        "location": "八千代市（ゆりのき台・中央拠点）",
+        "count": 1200,
+        "updatedAt": "10/25 14:30",
+        "isMe": true
+      },
+      "stocks": [
+        {
+          "storageId": "S-001",
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "location": "八千代市（ゆりのき台・中央拠点）",
+          "count": 1200,
+          "updatedAt": "10/25 14:30",
+          "isMe": true
+        },
+        {
+          "storageId": "S-002",
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "location": "八千代市（八千代台エリア拠点）",
+          "count": 850,
+          "updatedAt": "10/25 13:15",
+          "isMe": false
+        },
+        {
+          "storageId": "S-004",
+          "staffId": "S-004",
+          "staffName": "高橋 健一",
+          "location": "八千代市（勝田台エリア拠点）",
+          "count": 900,
+          "updatedAt": "10/25 12:40",
+          "isMe": false
+        },
+        {
+          "storageId": "S-006",
+          "staffId": "S-006",
+          "staffName": "渡辺 美咲",
+          "location": "八千代市（緑が丘エリア拠点）",
+          "count": 650,
+          "updatedAt": "10/25 11:50",
+          "isMe": false
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "staffId": "S-001",
+          "name": "山田 太郎",
+          "count": 2150,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 2,
+          "staffId": "S-002",
+          "name": "佐藤 花子",
+          "count": 1840,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 3,
+          "staffId": "S-004",
+          "name": "高橋 健一",
+          "count": 1620,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 4,
+          "staffId": "S-006",
+          "name": "渡辺 美咲",
+          "count": 1390,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 5,
+          "staffId": "S-003",
+          "name": "鈴木 一郎",
+          "count": 1150,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 6,
+          "staffId": "S-005",
+          "name": "伊藤 誠",
+          "count": 980,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 7,
+          "staffId": "S-007",
+          "name": "中村 陽子",
+          "count": 820,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 8,
+          "staffId": "S-008",
+          "name": "小林 大輔",
+          "count": 640,
+          "hasGps": true,
+          "hasPhoto": true
+        }
+      ],
+      "mySummary": {
+        "rank": 1,
+        "totalCount": 2150,
+        "completedAreas": 4
+      },
+      "roster": [
+        {
+          "id": "S-001",
+          "name": "山田 太郎",
+          "stockTotal": 1200,
+          "deliveredTotal": 2150
+        },
+        {
+          "id": "S-002",
+          "name": "佐藤 花子",
+          "stockTotal": 850,
+          "deliveredTotal": 1840
+        },
+        {
+          "id": "S-003",
+          "name": "鈴木 一郎",
+          "stockTotal": 0,
+          "deliveredTotal": 1150
+        },
+        {
+          "id": "S-004",
+          "name": "高橋 健一",
+          "stockTotal": 900,
+          "deliveredTotal": 1620
+        },
+        {
+          "id": "S-005",
+          "name": "伊藤 誠",
+          "stockTotal": 0,
+          "deliveredTotal": 980
+        },
+        {
+          "id": "S-006",
+          "name": "渡辺 美咲",
+          "stockTotal": 650,
+          "deliveredTotal": 1390
+        },
+        {
+          "id": "S-007",
+          "name": "中村 陽子",
+          "stockTotal": 0,
+          "deliveredTotal": 820
+        },
+        {
+          "id": "S-008",
+          "name": "小林 大輔",
+          "stockTotal": 0,
+          "deliveredTotal": 640
+        }
+      ],
+      "transferRequests": [
+        {
+          "requestId": "req_tr_201",
+          "requestUserId": "S-007",
+          "holderUserId": "S-004",
+          "storageId": "S-004",
+          "contactMethod": "LINE",
+          "contactValue": "nakamura_y_demo",
+          "status": "PENDING",
+          "requestedAt": "10/25 14:10"
+        },
+        {
+          "requestId": "req_tr_202",
+          "requestUserId": "S-008",
+          "holderUserId": "S-006",
+          "storageId": "S-006",
+          "contactMethod": "LINE",
+          "contactValue": "kobayashi_d_demo",
+          "status": "PENDING",
+          "requestedAt": "10/25 13:45"
+        }
+      ],
+      "liveRecords": [
+        {
+          "recordId": "rec_201",
+          "rowId": 50,
+          "cityName": "八千代市",
+          "townName": "緑が丘一丁目",
+          "count": 520,
+          "staffId": "S-006",
+          "staffName": "渡辺 美咲",
+          "time": "15:12",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_202",
+          "rowId": 9,
+          "cityName": "八千代市",
+          "townName": "勝田台一丁目",
+          "count": 460,
+          "staffId": "S-004",
+          "staffName": "高橋 健一",
+          "time": "14:48",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_203",
+          "rowId": 97,
+          "cityName": "八千代市",
+          "townName": "八千代台東一丁目",
+          "count": 410,
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "time": "14:05",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_204",
+          "rowId": 107,
+          "cityName": "八千代市",
+          "townName": "ゆりのき台二丁目",
+          "count": 540,
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "time": "13:30",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        }
+      ],
+      "bulletinPosts": [
+        {
+          "postId": "bp_203",
+          "staffId": "S-006",
+          "staffName": "渡辺 美咲",
+          "message": "緑が丘エリア拠点にチラシ650枚あります！緑が丘西方面で活動される方はお気軽に受渡要請してください。",
+          "createdAt": "10/25 15:15",
+          "timestamp": "10/25 15:15"
+        },
+        {
+          "postId": "bp_202",
+          "staffId": "S-004",
+          "staffName": "高橋 健一",
+          "message": "勝田台一丁目・二丁目の配布が完了しました。次は村上南方面へ広げます！",
+          "createdAt": "10/25 14:50",
+          "timestamp": "10/25 14:50"
+        },
+        {
+          "postId": "bp_201",
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "message": "ご友人2名が新しくLINEから参加してくださいました！八千代台東〜南エリアを進めていきます。",
+          "createdAt": "10/25 13:20",
+          "timestamp": "10/25 13:20"
+        }
+      ]
+    },
+    "day45": {
+      "label": "Day 45（市内全域へ面展開）",
+      "inProgress": [
+        1,
+        30,
+        46,
+        47
+      ],
+      "completed": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        31,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "myInProgress": [],
+      "myStock": {
+        "storageId": "S-001",
+        "staffId": "S-001",
+        "staffName": "山田 太郎",
+        "location": "八千代市（ゆりのき台・中央拠点）",
+        "count": 800,
+        "updatedAt": "10/25 16:00",
+        "isMe": true
+      },
+      "stocks": [
+        {
+          "storageId": "S-001",
+          "staffId": "S-001",
+          "staffName": "山田 太郎",
+          "location": "八千代市（ゆりのき台・中央拠点）",
+          "count": 800,
+          "updatedAt": "10/25 16:00",
+          "isMe": true
+        },
+        {
+          "storageId": "S-002",
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "location": "八千代市（八千代台エリア拠点）",
+          "count": 500,
+          "updatedAt": "10/25 15:40",
+          "isMe": false
+        },
+        {
+          "storageId": "S-004",
+          "staffId": "S-004",
+          "staffName": "高橋 健一",
+          "location": "八千代市（勝田台エリア拠点）",
+          "count": 600,
+          "updatedAt": "10/25 15:20",
+          "isMe": false
+        },
+        {
+          "storageId": "S-006",
+          "staffId": "S-006",
+          "staffName": "渡辺 美咲",
+          "location": "八千代市（緑が丘エリア拠点）",
+          "count": 450,
+          "updatedAt": "10/25 15:10",
+          "isMe": false
+        },
+        {
+          "storageId": "S-009",
+          "staffId": "S-009",
+          "staffName": "加藤 隆",
+          "location": "八千代市（村上・米本エリア拠点）",
+          "count": 700,
+          "updatedAt": "10/25 14:55",
+          "isMe": false
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "staffId": "S-001",
+          "name": "山田 太郎",
+          "count": 4850,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 2,
+          "staffId": "S-002",
+          "name": "佐藤 花子",
+          "count": 4120,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 3,
+          "staffId": "S-004",
+          "name": "高橋 健一",
+          "count": 3890,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 4,
+          "staffId": "S-006",
+          "name": "渡辺 美咲",
+          "count": 3450,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 5,
+          "staffId": "S-009",
+          "name": "加藤 隆",
+          "count": 2980,
+          "hasGps": true,
+          "hasPhoto": true
+        },
+        {
+          "rank": 6,
+          "staffId": "S-003",
+          "name": "鈴木 一郎",
+          "count": 2640,
+          "hasGps": true,
+          "hasPhoto": true
+        }
+      ],
+      "mySummary": {
+        "rank": 1,
+        "totalCount": 4850,
+        "completedAreas": 22
+      },
+      "roster": [
+        {
+          "id": "S-001",
+          "name": "山田 太郎",
+          "stockTotal": 800,
+          "deliveredTotal": 4850
+        },
+        {
+          "id": "S-002",
+          "name": "佐藤 花子",
+          "stockTotal": 500,
+          "deliveredTotal": 4120
+        },
+        {
+          "id": "S-003",
+          "name": "鈴木 一郎",
+          "stockTotal": 0,
+          "deliveredTotal": 2640
+        },
+        {
+          "id": "S-004",
+          "name": "高橋 健一",
+          "stockTotal": 600,
+          "deliveredTotal": 3890
+        },
+        {
+          "id": "S-006",
+          "name": "渡辺 美咲",
+          "stockTotal": 450,
+          "deliveredTotal": 3450
+        },
+        {
+          "id": "S-009",
+          "name": "加藤 隆",
+          "stockTotal": 700,
+          "deliveredTotal": 2980
+        }
+      ],
+      "transferRequests": [],
+      "liveRecords": [
+        {
+          "recordId": "rec_301",
+          "rowId": 115,
+          "cityName": "八千代市",
+          "townName": "米本",
+          "count": 680,
+          "staffId": "S-009",
+          "staffName": "加藤 隆",
+          "time": "16:40",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_302",
+          "rowId": 114,
+          "cityName": "八千代市",
+          "townName": "吉橋",
+          "count": 590,
+          "staffId": "S-006",
+          "staffName": "渡辺 美咲",
+          "time": "16:15",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_303",
+          "rowId": 65,
+          "cityName": "八千代市",
+          "townName": "村上南一丁目",
+          "count": 720,
+          "staffId": "S-004",
+          "staffName": "高橋 健一",
+          "time": "15:50",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        },
+        {
+          "recordId": "rec_304",
+          "rowId": 35,
+          "cityName": "八千代市",
+          "townName": "高津",
+          "count": 810,
+          "staffId": "S-002",
+          "staffName": "佐藤 花子",
+          "time": "15:25",
+          "gpsStatus": "OK",
+          "photoStatus": "OK"
+        }
+      ],
+      "bulletinPosts": [
+        {
+          "postId": "bp_301",
+          "staffId": "S-009",
+          "staffName": "加藤 隆",
+          "message": "米本エリアも完了しました！残るは神久保・島田台エリアのみです。",
+          "createdAt": "10/25 16:42",
+          "timestamp": "10/25 16:42"
+        }
+      ]
+    }
+  }
+}
